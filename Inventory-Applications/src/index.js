@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Routes from 'react-router-dom/Route';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
-//Components Built so far here
+//Components Built so far
 import MainInterface from './components/main_interface';
 import Counter from './components/counter';
 //import Calculator_1_0 from './components/calculator_1_0';
