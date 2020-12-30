@@ -1,0 +1,3353 @@
+(this["webpackJsonpcounter-app"] = this["webpackJsonpcounter-app"] || []).push([["main"],{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/bmi_calculator.css":
+/*!***************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/css/bmi_calculator.css ***!
+  \***************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "#getRange {\r\n  width: 200px !important;\r\n  height: 50px !important;\r\n  text-align: center;\r\n  background-color: rgba(101, 34, 226, 0.623);\r\n  color: black;\r\n  padding: 15px 15px 15px 15px;\r\n  display: inline;\r\n  font-size: 20px;\r\n  font-weight: 700;\r\n  border-radius: 10px;\r\n  margin: 0px 0px 0px 100px;\r\n}\r\n#bmi {\r\n  font-weight: 600;\r\n  font-size: 20px;\r\n}\r\n#card {\r\n  width: 900px !important;\r\n  background-color: rgb(245, 241, 241);\r\n  color: black;\r\n  margin: 30px 1px 0px 30px;\r\n  padding: 40px 30px 40px 30px;\r\n  border-radius: 30px;\r\n}\r\n#height-inches {\r\n  margin: 0px 0px 0px 15px;\r\n}\r\n#top-section {\r\n  margin: 40px 30px 40px 230px;\r\n}\r\n\r\n/* \r\nTop \r\nRight\r\nBottom\r\nLeft\r\n*/\r\n", "",{"version":3,"sources":["webpack://src/css/bmi_calculator.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,kBAAkB;EAClB,2CAA2C;EAC3C,YAAY;EACZ,4BAA4B;EAC5B,eAAe;EACf,eAAe;EACf,gBAAgB;EAChB,mBAAmB;EACnB,yBAAyB;AAC3B;AACA;EACE,gBAAgB;EAChB,eAAe;AACjB;AACA;EACE,uBAAuB;EACvB,oCAAoC;EACpC,YAAY;EACZ,yBAAyB;EACzB,4BAA4B;EAC5B,mBAAmB;AACrB;AACA;EACE,wBAAwB;AAC1B;AACA;EACE,4BAA4B;AAC9B;;AAEA;;;;;CAKC","sourcesContent":["#getRange {\r\n  width: 200px !important;\r\n  height: 50px !important;\r\n  text-align: center;\r\n  background-color: rgba(101, 34, 226, 0.623);\r\n  color: black;\r\n  padding: 15px 15px 15px 15px;\r\n  display: inline;\r\n  font-size: 20px;\r\n  font-weight: 700;\r\n  border-radius: 10px;\r\n  margin: 0px 0px 0px 100px;\r\n}\r\n#bmi {\r\n  font-weight: 600;\r\n  font-size: 20px;\r\n}\r\n#card {\r\n  width: 900px !important;\r\n  background-color: rgb(245, 241, 241);\r\n  color: black;\r\n  margin: 30px 1px 0px 30px;\r\n  padding: 40px 30px 40px 30px;\r\n  border-radius: 30px;\r\n}\r\n#height-inches {\r\n  margin: 0px 0px 0px 15px;\r\n}\r\n#top-section {\r\n  margin: 40px 30px 40px 230px;\r\n}\r\n\r\n/* \r\nTop \r\nRight\r\nBottom\r\nLeft\r\n*/\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/calculator.css":
+/*!***********************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/css/calculator.css ***!
+  \***********************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "body {\r\n  margin: 0;\r\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n\r\n#result {\r\n  width: 400px !important;\r\n  height: 90px !important;\r\n  text-align: right;\r\n  background-color: black;\r\n  margin: 10px 10px 0px 10px;\r\n  color: white;\r\n  padding: 40px 10px 50px 0px;\r\n  display: inline;\r\n  font-size: 35px;\r\n}\r\n\r\nbutton.key {\r\n  width: 100px !important;\r\n  height: 90px !important;\r\n  text-align: center;\r\n  background-color: rgba(202, 199, 199, 0.623);\r\n  color: black;\r\n  padding: 25px 25px 25px 25px;\r\n  display: inline;\r\n  font-size: 25px;\r\n  border: 1px solid rgb(202, 202, 202);\r\n}\r\n\r\n#key1 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key2 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key3 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key4 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key5 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key6 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key7 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key8 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key9 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key10 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key11 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key12 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key13 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key14 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key15 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key16 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key17 {\r\n  width: 400px !important;\r\n  height: 90px !important;\r\n  margin: 0px 0px 0px 10px;\r\n  background-color: rgb(155, 162, 187);\r\n}\r\n#key17_1_1 {\r\n  width: 300px !important;\r\n  height: 90px !important;\r\n  margin: 0px 0px 0px 10px;\r\n  background-color: rgb(155, 162, 187);\r\n}\r\n#key18 {\r\n  width: 100px !important;\r\n  height: 90px !important;\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n", "",{"version":3,"sources":["webpack://src/css/calculator.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT;;cAEY;EACZ,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE;aACW;AACb;;AAEA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,iBAAiB;EACjB,uBAAuB;EACvB,0BAA0B;EAC1B,YAAY;EACZ,2BAA2B;EAC3B,eAAe;EACf,eAAe;AACjB;;AAEA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,kBAAkB;EAClB,4CAA4C;EAC5C,YAAY;EACZ,4BAA4B;EAC5B,eAAe;EACf,eAAe;EACf,oCAAoC;AACtC;;AAEA;EACE,wBAAwB;AAC1B;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;EACvB,wBAAwB;EACxB,YAAY;AACd;AACA;EACE,wBAAwB;AAC1B;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;EACvB,wBAAwB;EACxB,YAAY;AACd;AACA;EACE,wBAAwB;AAC1B;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;EACvB,wBAAwB;EACxB,YAAY;AACd;AACA;EACE,wBAAwB;AAC1B;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;AACzB;AACA;EACE,uBAAuB;EACvB,wBAAwB;EACxB,YAAY;AACd;AACA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,wBAAwB;EACxB,oCAAoC;AACtC;AACA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,wBAAwB;EACxB,oCAAoC;AACtC;AACA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,uBAAuB;EACvB,wBAAwB;EACxB,YAAY;AACd","sourcesContent":["body {\r\n  margin: 0;\r\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\r\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\r\n    sans-serif;\r\n  -webkit-font-smoothing: antialiased;\r\n  -moz-osx-font-smoothing: grayscale;\r\n}\r\n\r\ncode {\r\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\r\n    monospace;\r\n}\r\n\r\n#result {\r\n  width: 400px !important;\r\n  height: 90px !important;\r\n  text-align: right;\r\n  background-color: black;\r\n  margin: 10px 10px 0px 10px;\r\n  color: white;\r\n  padding: 40px 10px 50px 0px;\r\n  display: inline;\r\n  font-size: 35px;\r\n}\r\n\r\nbutton.key {\r\n  width: 100px !important;\r\n  height: 90px !important;\r\n  text-align: center;\r\n  background-color: rgba(202, 199, 199, 0.623);\r\n  color: black;\r\n  padding: 25px 25px 25px 25px;\r\n  display: inline;\r\n  font-size: 25px;\r\n  border: 1px solid rgb(202, 202, 202);\r\n}\r\n\r\n#key1 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key2 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key3 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key4 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key5 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key6 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key7 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key8 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key9 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key10 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key11 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key12 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key13 {\r\n  margin: 0px 0px 0px 10px;\r\n}\r\n#key14 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key15 {\r\n  margin: 0px 0px 0px 0px;\r\n}\r\n#key16 {\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n#key17 {\r\n  width: 400px !important;\r\n  height: 90px !important;\r\n  margin: 0px 0px 0px 10px;\r\n  background-color: rgb(155, 162, 187);\r\n}\r\n#key17_1_1 {\r\n  width: 300px !important;\r\n  height: 90px !important;\r\n  margin: 0px 0px 0px 10px;\r\n  background-color: rgb(155, 162, 187);\r\n}\r\n#key18 {\r\n  width: 100px !important;\r\n  height: 90px !important;\r\n  margin: 0px 0px 0px 0px;\r\n  background-color: orange;\r\n  color: white;\r\n}\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/weather_app.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/css/weather_app.css ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "#getRange {\r\n  width: 200px !important;\r\n  height: 50px !important;\r\n  text-align: center;\r\n  background-color: rgba(101, 34, 226, 0.623);\r\n  color: black;\r\n  padding: 15px 15px 15px 15px;\r\n  display: inline;\r\n  font-size: 20px;\r\n  font-weight: 700;\r\n  border-radius: 10px;\r\n  margin: 0px 0px 0px 100px;\r\n}\r\n#bmi {\r\n  font-weight: 600;\r\n  font-size: 20px;\r\n}\r\n\r\n#height-inches {\r\n  margin: 0px 0px 0px 15px;\r\n}\r\n#top-section {\r\n  margin: 40px 30px 40px 230px;\r\n}\r\n\r\n.card {\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  transition: 0.3s;\r\n  width: 150px !important;\r\n  height: 150px;\r\n  text-align: center;\r\n  margin: 40px 0px 20px 30px;\r\n}\r\n\r\n.card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\r\n}\r\n\r\n.container {\r\n  padding: 2px 16px;\r\n}\r\n#icon {\r\n  width: 100%;\r\n  height: 50%;\r\n}\r\n#day {\r\n  font-weight: 130;\r\n}\r\n\r\n/* \r\nTop \r\nRight\r\nBottom\r\nLeft\r\n*/\r\n", "",{"version":3,"sources":["webpack://src/css/weather_app.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,kBAAkB;EAClB,2CAA2C;EAC3C,YAAY;EACZ,4BAA4B;EAC5B,eAAe;EACf,eAAe;EACf,gBAAgB;EAChB,mBAAmB;EACnB,yBAAyB;AAC3B;AACA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,wBAAwB;AAC1B;AACA;EACE,4BAA4B;AAC9B;;AAEA;EACE,0CAA0C;EAC1C,gBAAgB;EAChB,uBAAuB;EACvB,aAAa;EACb,kBAAkB;EAClB,0BAA0B;AAC5B;;AAEA;EACE,2CAA2C;AAC7C;;AAEA;EACE,iBAAiB;AACnB;AACA;EACE,WAAW;EACX,WAAW;AACb;AACA;EACE,gBAAgB;AAClB;;AAEA;;;;;CAKC","sourcesContent":["#getRange {\r\n  width: 200px !important;\r\n  height: 50px !important;\r\n  text-align: center;\r\n  background-color: rgba(101, 34, 226, 0.623);\r\n  color: black;\r\n  padding: 15px 15px 15px 15px;\r\n  display: inline;\r\n  font-size: 20px;\r\n  font-weight: 700;\r\n  border-radius: 10px;\r\n  margin: 0px 0px 0px 100px;\r\n}\r\n#bmi {\r\n  font-weight: 600;\r\n  font-size: 20px;\r\n}\r\n\r\n#height-inches {\r\n  margin: 0px 0px 0px 15px;\r\n}\r\n#top-section {\r\n  margin: 40px 30px 40px 230px;\r\n}\r\n\r\n.card {\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  transition: 0.3s;\r\n  width: 150px !important;\r\n  height: 150px;\r\n  text-align: center;\r\n  margin: 40px 0px 20px 30px;\r\n}\r\n\r\n.card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\r\n}\r\n\r\n.container {\r\n  padding: 2px 16px;\r\n}\r\n#icon {\r\n  width: 100%;\r\n  height: 50%;\r\n}\r\n#day {\r\n  font-weight: 130;\r\n}\r\n\r\n/* \r\nTop \r\nRight\r\nBottom\r\nLeft\r\n*/\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css":
+/*!**************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css ***!
+  \**************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n\nbutton {\n  padding: 5px 10px;\n  display: inline-block;\n  font-size: 16px;\n  color: white;\n  border: none;\n}\n\n#Decrement {\n  background-color: red;\n  margin: 10px 10px;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#Increment {\n  background-color: blue;\n  margin: 5px 10px;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#Reset {\n  background-color: rgb(76, 74, 223);\n  margin: 5px 10px;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#nav {\n  background-color: rgb(247, 247, 247);\n  border-radius: 8px;\n  font-weight: 900;\n  text-align: center;\n}\n\n#countzero {\n  background-color: orange;\n  color: black;\n  font-weight: 700;\n  margin: 5px 10px;\n  border-radius: 8px;\n  padding: 5px 11px;\n  text-align: center;\n}\n#countreg {\n  background-color: blue;\n  margin: 5px 10px;\n  border-radius: 8px;\n  padding: 5px 23px;\n  text-align: center;\n}\n\n#decrement,\n#increment {\n  background-color: grey;\n  margin: 5px 10px;\n  font-weight: 700;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#inactivedecrement {\n  background-color: rgba(226, 224, 224, 0.651);\n  margin: 5px 10px;\n  font-weight: 700;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#navnum {\n  background-color: grey;\n  margin: 5px 0px;\n  font-weight: 700;\n  border-radius: 20px;\n  padding: 5px 15px;\n  text-align: center;\n}\n", "",{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT;;cAEY;EACZ,mCAAmC;EACnC,kCAAkC;AACpC;;AAEA;EACE;aACW;AACb;;AAEA;EACE,iBAAiB;EACjB,qBAAqB;EACrB,eAAe;EACf,YAAY;EACZ,YAAY;AACd;;AAEA;EACE,qBAAqB;EACrB,iBAAiB;EACjB,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,sBAAsB;EACtB,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,kCAAkC;EAClC,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,oCAAoC;EACpC,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;AACpB;;AAEA;EACE,wBAAwB;EACxB,YAAY;EACZ,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;AACpB;AACA;EACE,sBAAsB;EACtB,gBAAgB;EAChB,kBAAkB;EAClB,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;;EAEE,sBAAsB;EACtB,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,4CAA4C;EAC5C,gBAAgB;EAChB,gBAAgB;EAChB,kBAAkB;EAClB,kBAAkB;AACpB;;AAEA;EACE,sBAAsB;EACtB,eAAe;EACf,gBAAgB;EAChB,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;AACpB","sourcesContent":["body {\n  margin: 0;\n  font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"Roboto\", \"Oxygen\",\n    \"Ubuntu\", \"Cantarell\", \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\",\n    sans-serif;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\ncode {\n  font-family: source-code-pro, Menlo, Monaco, Consolas, \"Courier New\",\n    monospace;\n}\n\nbutton {\n  padding: 5px 10px;\n  display: inline-block;\n  font-size: 16px;\n  color: white;\n  border: none;\n}\n\n#Decrement {\n  background-color: red;\n  margin: 10px 10px;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#Increment {\n  background-color: blue;\n  margin: 5px 10px;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#Reset {\n  background-color: rgb(76, 74, 223);\n  margin: 5px 10px;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#nav {\n  background-color: rgb(247, 247, 247);\n  border-radius: 8px;\n  font-weight: 900;\n  text-align: center;\n}\n\n#countzero {\n  background-color: orange;\n  color: black;\n  font-weight: 700;\n  margin: 5px 10px;\n  border-radius: 8px;\n  padding: 5px 11px;\n  text-align: center;\n}\n#countreg {\n  background-color: blue;\n  margin: 5px 10px;\n  border-radius: 8px;\n  padding: 5px 23px;\n  text-align: center;\n}\n\n#decrement,\n#increment {\n  background-color: grey;\n  margin: 5px 10px;\n  font-weight: 700;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#inactivedecrement {\n  background-color: rgba(226, 224, 224, 0.651);\n  margin: 5px 10px;\n  font-weight: 700;\n  border-radius: 8px;\n  text-align: center;\n}\n\n#navnum {\n  background-color: grey;\n  margin: 5px 0px;\n  font-weight: 700;\n  border-radius: 20px;\n  padding: 5px 15px;\n  text-align: center;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./src/components/Api_practice.jsx":
+/*!*****************************************!*\
+  !*** ./src/components/Api_practice.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return App; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\Api_practice.jsx";
+
+class App extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: [],
+      isLoaded: false
+    };
+  }
+
+  componentDidMount() {
+    fetch('https://dog.ceo/api/breeds/image/random/40').then(data => data.json()).then(data => this.setState({
+      items: data,
+      isLoaded: true
+    }));
+  }
+
+  render() {
+    var {
+      items,
+      isLoaded
+    } = this.state;
+
+    if (!isLoaded) {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+        children: "Loading..."
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 20
+      }, this);
+    } else {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("ul", {
+          children: items.message.map((dog, i) => {
+            return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+              children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("li", {
+                children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+                  src: `${dog}`,
+                  alt: `${items.status}`
+                }, void 0, false, {
+                  fileName: _jsxFileName,
+                  lineNumber: 35,
+                  columnNumber: 49
+                }, this), " "]
+              }, i, true, {
+                fileName: _jsxFileName,
+                lineNumber: 35,
+                columnNumber: 37
+              }, this)
+            }, void 0, false);
+          })
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 21
+        }, this)
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 30,
+        columnNumber: 17
+      }, this);
+    }
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/bmi_calculator_1_0.jsx":
+/*!***********************************************!*\
+  !*** ./src/components/bmi_calculator_1_0.jsx ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return BMI; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_bmi_calculator_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/bmi_calculator.css */ "./src/css/bmi_calculator.css");
+/* harmony import */ var _css_bmi_calculator_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_bmi_calculator_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_bmi_graph_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/bmi-graph.jpg */ "./src/images/bmi-graph.jpg");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\bmi_calculator_1_0.jsx";
+
+
+
+class BMI extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.onSelectScale = () => {
+      this.setState({
+        metricScale: !this.state.metricScale
+      });
+    };
+
+    this.onGetRangeClick = () => {
+      this.setState({
+        buttonClicked: !this.state.buttonClicked
+      });
+    };
+
+    this.updateParaCentimeters = e => {
+      let input = e.target;
+      let hCentimeters = input.id === 'height-Centimeters' ? parseFloat(input.value) : this.state.data.heightCentimeters;
+      let hFeet = input.id === 'height-feet' ? parseFloat(input.value) : this.state.data.heightFeet;
+      let hInches = input.id === 'height-inches' ? parseFloat(input.value) : this.state.data.heightInches;
+      let hImperial = hFeet * 12 + hInches;
+      let wKg = input.id === 'weight-kg' ? parseFloat(input.value) : this.state.data.weightKg;
+      let wIbs = input.id === 'weight-ibs' ? parseFloat(input.value) : this.state.data.weightIbs;
+      let newData = this.state.data;
+      newData.heightCentimeters = hCentimeters;
+      newData.heightImperial = hImperial;
+      newData.heightFeet = hFeet;
+      newData.heightInches = hInches;
+      newData.weightKg = wKg;
+      newData.weightIbs = wIbs;
+      this.setState({
+        data: newData
+      });
+      this.computeBmi();
+    };
+
+    this.computeBmi = () => {
+      let newBmi = 0;
+      let hCentimeters = this.state.data.heightCentimeters;
+      let hImperial = this.state.data.heightImperial;
+      let wKg = this.state.data.weightKg;
+      let wIbs = this.state.data.weightIbs;
+      newBmi = this.state.metricScale ? wKg / (hCentimeters / 100 * (hCentimeters / 100)) : 703 * (wIbs / (hImperial * hImperial));
+      newBmi = String(newBmi.toFixed(1));
+      newBmi = newBmi === 'NaN' ? 'Invalid Entry' : newBmi;
+      this.setState({
+        bmi: newBmi
+      });
+    };
+
+    this.Interface = () => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+        id: "card",
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+          id: "top-section",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+            children: "BMI CALCULATOR"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 81,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h5", {
+            children: "Unit of measurement:"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 82,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("form", {
+            children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+              type: "radio",
+              id: "metric",
+              name: "scale",
+              onClick: this.onSelectScale,
+              defaultChecked: true
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 84,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("label", {
+              children: "Metric \xA0 \xA0"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 85,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+              type: "radio",
+              id: "imperial",
+              name: "scale",
+              onClick: this.onSelectScale
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 86,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("label", {
+              children: "Imperial"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 87,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 89,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 89,
+              columnNumber: 31
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h5", {
+              children: "Height"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 90,
+              columnNumber: 25
+            }, this), !this.state.metricScale ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+                type: "text",
+                id: "height-feet",
+                placeholder: "0",
+                onChange: e => this.updateParaCentimeters(e)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 94,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+                type: "text",
+                id: "height-inches",
+                placeholder: "0",
+                onChange: e => this.updateParaCentimeters(e)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 95,
+                columnNumber: 33
+              }, this), " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 95,
+                columnNumber: 137
+              }, this), "feet \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 \xA0 inches"]
+            }, void 0, true) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+                type: "text",
+                id: "height-Centimeters",
+                placeholder: "0",
+                onChange: e => this.updateParaCentimeters(e)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 102,
+                columnNumber: 33
+              }, this), " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 102,
+                columnNumber: 142
+              }, this), "Centimeters"]
+            }, void 0, true), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 106,
+              columnNumber: 25
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 106,
+              columnNumber: 31
+            }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h5", {
+              children: "Weight"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 107,
+              columnNumber: 25
+            }, this), !this.state.metricScale ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+                type: "text",
+                id: "weight-ibs",
+                placeholder: "0",
+                onChange: e => this.updateParaCentimeters(e)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 111,
+                columnNumber: 33
+              }, this), " ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 111,
+                columnNumber: 134
+              }, this), "Ibs"]
+            }, void 0, true) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+              children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("input", {
+                type: "text",
+                id: "weight-kg",
+                placeholder: "0",
+                onChange: e => this.updateParaCentimeters(e)
+              }, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 115,
+                columnNumber: 33
+              }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+                fileName: _jsxFileName,
+                lineNumber: 115,
+                columnNumber: 132
+              }, this), "Kg"]
+            }, void 0, true)]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 83,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 119,
+            columnNumber: 28
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h4", {
+            children: "BMI:"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 120,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+            id: "bmi",
+            children: [this.state.bmi, " "]
+          }, void 0, true, {
+            fileName: _jsxFileName,
+            lineNumber: 121,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("label", {
+            children: "Normal weight: 18.5 - 24.9"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 122,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 122,
+            columnNumber: 62
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 122,
+            columnNumber: 67
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+            id: "getRange",
+            onClick: this.onGetRangeClick,
+            children: "SEE MY RANGE!"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 123,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 123,
+            columnNumber: 96
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 123,
+            columnNumber: 101
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 123,
+            columnNumber: 106
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+          children: this.state.buttonClicked ? chart : null
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 125,
+          columnNumber: 17
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 79,
+        columnNumber: 13
+      }, this);
+    };
+
+    this.state = {
+      metricScale: true,
+      bmi: '0.0',
+      buttonClicked: false,
+      data: {
+        heightCentimeters: 0,
+        heightImperial: 0,
+        heightFeet: 0,
+        heightInches: 0,
+        weightKg: 0,
+        weightIbs: 0
+      }
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(this.Interface, {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 135,
+        columnNumber: 17
+      }, this)
+    }, void 0, false);
+  }
+
+}
+
+const chart = /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+  src: _images_bmi_graph_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+  alt: "BMI Chart",
+  width: "850"
+}, void 0, false, {
+  fileName: _jsxFileName,
+  lineNumber: 143,
+  columnNumber: 15
+}, undefined);
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/calculator_1_0.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/calculator_1_0.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Calculator_1_0; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_calculator_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/calculator.css */ "./src/css/calculator.css");
+/* harmony import */ var _css_calculator_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_calculator_css__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\calculator_1_0.jsx";
+
+ //Caculator Version 1.0
+
+class Calculator_1_0 extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.Interface = () => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "result",
+          children: this.state.result
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key1",
+          onClick: e => this.onNumberClick(e, 7),
+          children: "7"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key2",
+          onClick: e => this.onNumberClick(e, 8),
+          children: "8"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key3",
+          onClick: e => this.onNumberClick(e, 9),
+          children: "9"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key4",
+          onClick: e => this.onFunctionClick(e, 'Divide'),
+          children: "/"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 30,
+          columnNumber: 111
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key5",
+          onClick: e => this.onNumberClick(e, 4),
+          children: "4"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key6",
+          onClick: e => this.onNumberClick(e, 5),
+          children: "5"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key7",
+          onClick: e => this.onNumberClick(e, 6),
+          children: "6"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key8",
+          onClick: e => this.onFunctionClick(e, 'Multiply'),
+          children: "*"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 113
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key9",
+          onClick: e => this.onNumberClick(e, 1),
+          children: "1"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key10",
+          onClick: e => this.onNumberClick(e, 2),
+          children: "2"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key11",
+          onClick: e => this.onNumberClick(e, 3),
+          children: "3"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key12",
+          onClick: e => this.onFunctionClick(e, 'Add'),
+          children: "+"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 109
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key13",
+          onClick: e => this.onNumberClick(e, '.'),
+          children: "."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key14",
+          onClick: e => this.onNumberClick(e, 0),
+          children: "0"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key15",
+          onClick: this.onEqualsClick,
+          children: "="
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key16",
+          onClick: e => this.onFunctionClick(e, 'Subtract'),
+          children: "-"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 114
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key17",
+          onClick: this.onClearClick,
+          children: "Clear"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 17
+        }, this)]
+      }, void 0, true);
+    };
+
+    this.state = {
+      result: '',
+      funcClicked: '',
+      memory: []
+    };
+    this.onNumberClick = this.onNumberClick.bind(this);
+    this.onClearClick = this.onClearClick.bind(this);
+    this.onResultLimit = this.onResultLimit.bind(this);
+    this.onEqualsClick = this.onEqualsClick.bind(this);
+    this.onFunctionClick = this.onFunctionClick.bind(this);
+  } //Calculator UI
+
+
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(this.Interface, {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 52,
+        columnNumber: 17
+      }, this)
+    }, void 0, false);
+  }
+
+  onNumberClick(e, numb) {
+    let maxreached = this.onResultLimit();
+    let res = maxreached ? '# too long!' : this.state.result + String(numb);
+    this.setState({
+      result: res
+    });
+  }
+
+  onClearClick() {
+    this.setState({
+      result: '',
+      funcClicked: '',
+      memory: []
+    });
+  }
+
+  onResultLimit() {
+    let res = this.state.result;
+
+    if (res != null && res.length > 18) {
+      res = 'true';
+    }
+
+    return res !== 'true' ? false : true;
+  }
+
+  onFunctionClick(e, func) {
+    let updatedAdd = this.state.memory;
+    let res = this.state.result;
+    let clicked = this.state.funcClicked;
+
+    if (res != null) {
+      updatedAdd.push(parseFloat(res));
+      clicked = func;
+      res = '';
+    }
+
+    this.setState({
+      result: res,
+      memory: updatedAdd,
+      funcClicked: clicked
+    });
+  }
+
+  onEqualsClick() {
+    let newres = this.state.result;
+    let res = this.state.result;
+    let clicked = this.state.funcClicked;
+    let temp = null;
+    let storage = this.state.memory;
+
+    if (res != null) {
+      if (clicked === 'Add') {
+        newres = 0;
+        temp = 0;
+        storage.map(numb => temp += numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres += numb);
+      }
+
+      if (clicked === 'Subtract') {
+        newres = storage[0] * 2;
+        temp = storage[0] * 2;
+        storage.map(numb => temp -= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres -= numb);
+      }
+
+      if (clicked === 'Multiply') {
+        newres = 1;
+        temp = 1;
+        storage.map(numb => temp *= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres *= numb);
+      }
+
+      if (clicked === 'Divide') {
+        newres = Math.pow(storage[0], 2);
+        temp = Math.pow(storage[0], 2);
+        storage.map(numb => temp /= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres /= numb);
+      }
+    }
+
+    newres = String(newres);
+    newres = newres === 'NaN' ? temp : newres;
+    this.setState({
+      result: newres,
+      memory: [],
+      funcClicked: ''
+    });
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/calculator_1_1.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/calculator_1_1.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Calculator_1_0; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_calculator_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/calculator.css */ "./src/css/calculator.css");
+/* harmony import */ var _css_calculator_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_calculator_css__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\calculator_1_1.jsx";
+
+ //Caculator Version 1.1
+//Add Delete Feature Completed
+//Add Command Chaining Completed
+
+class Calculator_1_0 extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.Interface = () => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "result",
+          children: this.state.result
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key1",
+          onClick: e => this.onNumberClick(e, 7),
+          children: "7"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key2",
+          onClick: e => this.onNumberClick(e, 8),
+          children: "8"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key3",
+          onClick: e => this.onNumberClick(e, 9),
+          children: "9"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key4",
+          onClick: e => this.onFunctionClick(e, 'Divide'),
+          children: "/"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 111
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key5",
+          onClick: e => this.onNumberClick(e, 4),
+          children: "4"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key6",
+          onClick: e => this.onNumberClick(e, 5),
+          children: "5"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key7",
+          onClick: e => this.onNumberClick(e, 6),
+          children: "6"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key8",
+          onClick: e => this.onFunctionClick(e, 'Multiply'),
+          children: "*"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 113
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key9",
+          onClick: e => this.onNumberClick(e, 1),
+          children: "1"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key10",
+          onClick: e => this.onNumberClick(e, 2),
+          children: "2"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key11",
+          onClick: e => this.onNumberClick(e, 3),
+          children: "3"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key12",
+          onClick: e => this.onFunctionClick(e, 'Add'),
+          children: "+"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 109
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key13",
+          onClick: e => this.onNumberClick(e, '.'),
+          children: "."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key14",
+          onClick: e => this.onNumberClick(e, 0),
+          children: "0"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key15",
+          onClick: this.onEqualsClick,
+          children: "="
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key16",
+          onClick: e => this.onFunctionClick(e, 'Subtract'),
+          children: "-"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 114
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key17_1_1",
+          onClick: this.onClearClick,
+          children: "Clear"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key18",
+          onClick: this.onDeleteClick,
+          children: "Del"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 17
+        }, this)]
+      }, void 0, true);
+    };
+
+    this.state = {
+      result: '',
+      funcClicked: '',
+      pFuncClicked: '',
+      funcCall: false,
+      memory: []
+    };
+    this.onNumberClick = this.onNumberClick.bind(this);
+    this.onClearClick = this.onClearClick.bind(this);
+    this.onDeleteClick = this.onDeleteClick.bind(this);
+    this.onResultLimit = this.onResultLimit.bind(this);
+    this.onEqualsClick = this.onEqualsClick.bind(this);
+    this.tempEqualsClick = this.tempEqualsClick.bind(this);
+    this.onFunctionClick = this.onFunctionClick.bind(this);
+  } //Calculator UI
+
+
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(this.Interface, {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 17
+      }, this)
+    }, void 0, false);
+  }
+
+  onNumberClick(e, numb) {
+    let maxreached = this.onResultLimit();
+    let call = this.state.funcCall;
+    let res = maxreached ? '# too long!' : call ? String(numb) : this.state.result + String(numb);
+    call = call ? false : null;
+    this.setState({
+      result: res,
+      funcCall: call
+    });
+  }
+
+  onClearClick() {
+    this.setState({
+      result: '',
+      funcClicked: '',
+      pfuncClicked: '',
+      memory: [],
+      funcCall: false
+    });
+  }
+
+  onDeleteClick() {
+    let newResult = this.state.result;
+    newResult = newResult.substring(0, newResult.length - 1);
+    this.setState({
+      result: newResult
+    });
+  }
+
+  onResultLimit() {
+    let res = this.state.result;
+
+    if (res != null && res.length > 18) {
+      res = 'true';
+    }
+
+    return res !== 'true' ? false : true;
+  }
+
+  onFunctionClick(e, func) {
+    this.setState({
+      funcClicked: func,
+      funcCall: true
+    });
+    let storage = this.state.memory;
+    let res = this.state.result;
+    let clicked = this.state.pFuncClicked;
+
+    if (res != null) {
+      if (storage.length === 1 && clicked !== '') {
+        res = this.tempEqualsClick();
+        storage = [];
+        storage.push(parseFloat(res));
+      } else {
+        storage.push(parseFloat(res));
+        res = '';
+      }
+    }
+
+    this.setState({
+      result: res,
+      memory: storage,
+      pFuncClicked: func
+    });
+  }
+
+  onEqualsClick() {
+    let newres = this.state.result;
+    let res = this.state.result;
+    let clicked = this.state.funcClicked;
+    let temp = null;
+    let storage = this.state.memory;
+
+    if (res != null) {
+      if (clicked === 'Add') {
+        newres = 0;
+        temp = 0;
+        storage.map(numb => temp += numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres += numb);
+      }
+
+      if (clicked === 'Subtract') {
+        newres = storage[0] * 2;
+        temp = storage[0] * 2;
+        storage.map(numb => temp -= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres -= numb);
+      }
+
+      if (clicked === 'Multiply') {
+        newres = 1;
+        temp = 1;
+        storage.map(numb => temp *= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres *= numb);
+      }
+
+      if (clicked === 'Divide') {
+        newres = Math.pow(storage[0], 2);
+        temp = Math.pow(storage[0], 2);
+        storage.map(numb => temp /= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres /= numb);
+      }
+    }
+
+    newres = String(newres);
+    newres = newres === 'NaN' ? temp : newres;
+    this.setState({
+      result: newres,
+      memory: []
+    });
+  }
+
+  tempEqualsClick() {
+    let newres = this.state.result;
+    let res = this.state.result;
+    let clicked = this.state.pFuncClicked;
+    let temp = null;
+    let storage = this.state.memory;
+
+    if (res != null) {
+      if (clicked === 'Add') {
+        newres = 0;
+        temp = 0;
+        storage.map(numb => temp += numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres += numb);
+      }
+
+      if (clicked === 'Subtract') {
+        newres = storage[0] * 2;
+        temp = storage[0] * 2;
+        storage.map(numb => temp -= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres -= numb);
+      }
+
+      if (clicked === 'Multiply') {
+        newres = 1;
+        temp = 1;
+        storage.map(numb => temp *= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres *= numb);
+      }
+
+      if (clicked === 'Divide') {
+        newres = Math.pow(storage[0], 2);
+        temp = Math.pow(storage[0], 2);
+        storage.map(numb => temp /= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres /= numb);
+      }
+    }
+
+    newres = String(newres);
+    newres = newres === 'NaN' ? temp : newres;
+    return newres;
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/calculator_1_2.jsx":
+/*!*******************************************!*\
+  !*** ./src/components/calculator_1_2.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Calculator_1_0; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_calculator_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/calculator.css */ "./src/css/calculator.css");
+/* harmony import */ var _css_calculator_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_calculator_css__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\calculator_1_2.jsx";
+
+ //Caculator Version 1.1
+//Added Delete Feature Completed
+//Added Command Chaining Completed
+//Documenting Program Completed
+
+class Calculator_1_0 extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.Interface = () => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+        children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "result",
+          children: this.state.result
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key1",
+          onClick: e => this.onNumberClick(e, 7),
+          children: "7"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key2",
+          onClick: e => this.onNumberClick(e, 8),
+          children: "8"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 37,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key3",
+          onClick: e => this.onNumberClick(e, 9),
+          children: "9"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key4",
+          onClick: e => this.onFunctionClick(e, 'Divide'),
+          children: "/"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 111
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key5",
+          onClick: e => this.onNumberClick(e, 4),
+          children: "4"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key6",
+          onClick: e => this.onNumberClick(e, 5),
+          children: "5"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key7",
+          onClick: e => this.onNumberClick(e, 6),
+          children: "6"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key8",
+          onClick: e => this.onFunctionClick(e, 'Multiply'),
+          children: "*"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 113
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key9",
+          onClick: e => this.onNumberClick(e, 1),
+          children: "1"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key10",
+          onClick: e => this.onNumberClick(e, 2),
+          children: "2"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key11",
+          onClick: e => this.onNumberClick(e, 3),
+          children: "3"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key12",
+          onClick: e => this.onFunctionClick(e, 'Add'),
+          children: "+"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 109
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key13",
+          onClick: e => this.onNumberClick(e, '.'),
+          children: "."
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key14",
+          onClick: e => this.onNumberClick(e, 0),
+          children: "0"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key15",
+          onClick: this.onEqualsClick,
+          children: "="
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key16",
+          onClick: e => this.onFunctionClick(e, 'Subtract'),
+          children: "-"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 114
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key17_1_1",
+          onClick: this.onClearClick,
+          children: "Clear"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 52,
+          columnNumber: 17
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          className: "key",
+          id: "key18",
+          onClick: this.onDeleteClick,
+          children: "Del"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 53,
+          columnNumber: 17
+        }, this)]
+      }, void 0, true);
+    };
+
+    this.state = {
+      result: '',
+      //Variable for value on Output Screen
+      funcClicked: '',
+      //Variable for function to use
+      pFuncClicked: '',
+      //Variable for previous function used
+      funcCall: false,
+      //Variable indicating if last process was an onClick-function
+      memory: [] //Variable to store values entered by users
+
+    }; //Binding All Created Functions to the Component
+
+    this.onNumberClick = this.onNumberClick.bind(this);
+    this.onClearClick = this.onClearClick.bind(this);
+    this.onDeleteClick = this.onDeleteClick.bind(this);
+    this.onResultLimit = this.onResultLimit.bind(this);
+    this.onEqualsClick = this.onEqualsClick.bind(this);
+    this.tempEqualsClick = this.tempEqualsClick.bind(this);
+    this.onFunctionClick = this.onFunctionClick.bind(this);
+  } //Calculator User Interface Skeleton. Designed in src/css/calculator.css
+
+
+  //To render the Interface on DOM
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(this.Interface, {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 62,
+        columnNumber: 17
+      }, this)
+    }, void 0, false);
+  } //To handle input limit on Display Screen
+  //returns boolean indicating if input limit is reached
+
+
+  onResultLimit() {
+    let res = this.state.result; //input limit = 18 characters
+
+    if (res != null && res.length > 18) {
+      res = 'true';
+    }
+
+    return res !== 'true' ? false : true;
+  } //To handle Number Clicks
+  //updates State Output Screen with clicked numbers
+  //Takes in the clicked number as parameter
+
+
+  onNumberClick(e, numb) {
+    let maxreached = this.onResultLimit();
+    let call = this.state.funcCall;
+    let res = maxreached ? '# too long!' : call ? String(numb) : this.state.result + String(numb);
+    call = call ? false : null;
+    this.setState({
+      result: res,
+      funcCall: call
+    });
+  } //To refresh Calculator when 'Clear' is clicked
+  //Removes all stored inputs or functions
+
+
+  onClearClick() {
+    this.setState({
+      result: '',
+      funcClicked: '',
+      pfuncClicked: '',
+      memory: [],
+      funcCall: false
+    });
+  } //To remove most recent number input from Output Screen
+  //updates Output screen with changes
+
+
+  onDeleteClick() {
+    let newResult = this.state.result;
+    newResult = newResult.substring(0, newResult.length - 1);
+    this.setState({
+      result: newResult
+    });
+  } //To compute result using the previous function clicked
+  //And return result
+
+
+  tempEqualsClick() {
+    let newres = this.state.result; //variable for final result so far
+
+    let res = this.state.result; //variable for current result before this function was called
+
+    let clicked = this.state.pFuncClicked;
+    let temp = null; //To handle case if last clicked entry is one of (+,-,*,/) and not followed by a number (i.e '2 +' instead of '2 + 3')
+
+    let storage = this.state.memory;
+
+    if (res != null) {
+      if (clicked === 'Add') {
+        newres = 0; // 0 + n = n
+
+        temp = 0; //To save the final result so far, in case user enters incorrect syntax (i.e '2 +' instead of '2 + 3') temp will hold 2
+
+        storage.map(numb => temp += numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres += numb);
+      }
+
+      if (clicked === 'Subtract') {
+        newres = storage[0] * 2; // 2(n) - n = n
+
+        temp = storage[0] * 2; //To save the final result so far, in case user enters incorrect syntax (i.e '2 -' instead of '2 - 3') temp will hold 2
+
+        storage.map(numb => temp -= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres -= numb);
+      }
+
+      if (clicked === 'Multiply') {
+        newres = 1; // 1 * n = n
+
+        temp = 1; //To save the final result so far, in case user enters incorrect syntax (i.e '2 *' instead of '2 * 3') temp will hold 2
+
+        storage.map(numb => temp *= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres *= numb);
+      }
+
+      if (clicked === 'Divide') {
+        newres = Math.pow(storage[0], 2); // n^2 / n = n
+
+        temp = Math.pow(storage[0], 2); //To save the final result so far, in case user enters incorrect syntax (i.e '2 /' instead of '2 / 3') temp will hold 2
+
+        storage.map(numb => temp /= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres /= numb);
+      }
+    } //To replace default error message with last entry
+    //if user enters incorrect syntax like (i.e 2 +or-or*or/) without a second number, then it will return the first number instead of the default error
+
+
+    newres = String(newres);
+    newres = newres === 'NaN' ? temp : newres;
+    return newres;
+  } //To handle all clicks on functions (i.e +,-,*,/)
+  //updates memory with entry in Output Screen
+  //Takes in selected function as a parameter
+
+
+  onFunctionClick(e, func) {
+    this.setState({
+      funcClicked: func,
+      funcCall: true
+    });
+    let storage = this.state.memory;
+    let res = this.state.result;
+    let clicked = this.state.pFuncClicked;
+
+    if (res != null) {
+      //If there exist a value in memory and a function is clicked
+      //It takes the value in the Output Screen
+      //and computes it with the value in memory using the 
+      //previous function clicked
+      //then updates memory with the result and displays on Output Screen
+      //Else, it saves the value in the Output Screen to memory
+      if (storage.length === 1 && clicked !== '') {
+        res = this.tempEqualsClick();
+        storage = [];
+        storage.push(parseFloat(res));
+      } else {
+        storage.push(parseFloat(res));
+        res = '';
+      }
+    }
+
+    this.setState({
+      result: res,
+      memory: storage,
+      pFuncClicked: func
+    });
+  } //To compute result using the current function clicked
+  //And updates Output Screen with result 
+
+
+  onEqualsClick() {
+    let newres = this.state.result; //variable for final result so far
+
+    let res = this.state.result; //variable for current result before this function was called
+
+    let clicked = this.state.funcClicked;
+    let temp = null; //To handle case if last clicked entry is one of (+,-,*,/) and not followed by a number (i.e '2 +' instead of '2 + 3')
+
+    let storage = this.state.memory;
+
+    if (res != null) {
+      if (clicked === 'Add') {
+        newres = 0; // 0 + n = n
+
+        temp = 0; //To save the final result so far, in case user enters incorrect syntax (i.e '2 +' instead of '2 + 3') temp will hold 2
+
+        storage.map(numb => temp += numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres += numb);
+      }
+
+      if (clicked === 'Subtract') {
+        newres = storage[0] * 2; // 2(n) - n = n
+
+        temp = storage[0] * 2; //To save the final result so far, in case user enters incorrect syntax (i.e '2 -' instead of '2 - 3') temp will hold 2
+
+        storage.map(numb => temp -= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres -= numb);
+      }
+
+      if (clicked === 'Multiply') {
+        newres = 1; // 1 * n = n
+
+        temp = 1; //To save the final result so far, in case user enters incorrect syntax (i.e '2 *' instead of '2 * 3') temp will hold 2
+
+        storage.map(numb => temp *= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres *= numb);
+      }
+
+      if (clicked === 'Divide') {
+        newres = Math.pow(storage[0], 2); // n^2 / n = n
+
+        temp = Math.pow(storage[0], 2); //To save the final result so far, in case user enters incorrect syntax (i.e '2 /' instead of '2 / 3') temp will hold 2
+
+        storage.map(numb => temp /= numb);
+        storage.push(parseFloat(res));
+        storage.map(numb => newres /= numb);
+      }
+    } //To replace default error message with last entry
+    //if user enters incorrect syntax like (i.e 2 +or-or*or/) without a second number, then it will return the first number instead of the default error
+
+
+    newres = String(newres);
+    newres = newres === 'NaN' ? temp : newres;
+    this.setState({
+      result: newres,
+      memory: []
+    });
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/counter.jsx":
+/*!************************************!*\
+  !*** ./src/components/counter.jsx ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Counter; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\counter.jsx";
+
+class Counter extends react__WEBPACK_IMPORTED_MODULE_1__["Component"] {
+  constructor(_props) {
+    super(_props);
+
+    this.buildCounter = props => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+        children: [props.counter.count !== 0 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "countreg",
+          children: props.counter.count
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 41
+        }, this) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "countzero",
+          children: "zero"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 25,
+          columnNumber: 96
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "increment",
+          onClick: (e, id) => this.incCounter(e, props.counter.id),
+          children: "+"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 13
+        }, this), props.counter.count !== 0 ? /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "decrement",
+          onClick: (e, id) => this.decCounter(e, props.counter.id),
+          children: "-"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 42
+        }, this) : /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "inactivedecrement",
+          onClick: (e, id) => this.decCounter(e, props.counter.id),
+          children: "-"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 14
+        }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "Decrement",
+          onClick: (e, id) => this.decCounters(e, props.counter.id),
+          children: "Delete"
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 31,
+          columnNumber: 13
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 9
+      }, this);
+    };
+
+    this.makeCounter = () => {
+      return this.state.counters.map(counter => {
+        return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(this.buildCounter, {
+          counter: counter
+        }, counter.id, false, {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 17
+        }, this);
+      });
+    };
+
+    this.getActiveCounters = () => {
+      let newCounters = this.state.counters;
+      let res = 0;
+      newCounters.map(contact => contact.count > 0 ? res++ : null);
+      this.setState({
+        activeCounters: res
+      });
+    };
+
+    this.state = {
+      counters: [{
+        id: 1,
+        count: 0
+      }],
+      maxId: 1,
+      numCounters: 1,
+      activeCounters: 0
+    };
+    this.incCounters = this.incCounters.bind(this);
+    this.decCounters = this.decCounters.bind(this);
+    this.reset = this.reset.bind(this);
+    this.incCounter = this.incCounter.bind(this);
+    this.decCounter = this.decCounter.bind(this);
+  }
+
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("nav", {
+        id: "nav",
+        children: ["Navbar ", /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+          id: "navnum",
+          children: this.state.activeCounters
+        }, void 0, false, {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 39
+        }, this)]
+      }, void 0, true, {
+        fileName: _jsxFileName,
+        lineNumber: 58,
+        columnNumber: 17
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+        id: "Reset",
+        onClick: this.reset,
+        children: "Reset"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 59,
+        columnNumber: 17
+      }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("button", {
+        id: "Increment",
+        onClick: this.incCounters,
+        children: "Add"
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 60,
+        columnNumber: 17
+      }, this), this.makeCounter()]
+    }, void 0, true);
+  }
+
+  incCounters() {
+    let newCounter = {
+      id: this.state.maxId + 1,
+      count: 0
+    };
+    let newCounters = this.state.counters;
+    newCounters.push(newCounter);
+    this.setState({
+      counters: newCounters,
+      maxId: this.state.maxId + 1,
+      numCounters: this.state.numcounters + 1
+    });
+    this.getActiveCounters();
+  }
+
+  decCounters(e, id) {
+    let newCounters = this.state.counters;
+    newCounters = newCounters.filter(counter => counter.id !== id);
+    this.setState({
+      counters: newCounters,
+      numCounters: this.state.numcounters - 1
+    });
+    this.getActiveCounters();
+  }
+
+  reset() {
+    let newCounters = this.state.counters;
+    newCounters.map(counter => counter.count = 0);
+    this.setState({
+      counters: newCounters
+    });
+    this.getActiveCounters();
+  }
+
+  incCounter(e, id) {
+    let newCounters = this.state.counters;
+    newCounters.map(counter => counter.id === id ? counter.count++ : null);
+    this.setState({
+      counters: newCounters
+    });
+    this.getActiveCounters();
+  }
+
+  decCounter(e, id) {
+    let newCounters = this.state.counters;
+    newCounters.map(counter => counter.id === id && counter.count !== 0 ? counter.count-- : null);
+    this.setState({
+      counters: newCounters
+    });
+    this.getActiveCounters();
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/emoji_picker.jsx":
+/*!*****************************************!*\
+  !*** ./src/components/emoji_picker.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Emoji; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var emoji_picker_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! emoji-picker-react */ "../../../../node_modules/emoji-picker-react/dist/index.js");
+/* harmony import */ var emoji_picker_react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(emoji_picker_react__WEBPACK_IMPORTED_MODULE_2__);
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\emoji_picker.jsx",
+    _s = __webpack_require__.$Refresh$.signature();
+
+
+
+class Emoji extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(App, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }, this);
+  }
+
+}
+
+const App = () => {
+  _s();
+
+  const [chosenEmoji, setChosenEmoji] = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null);
+
+  const onEmojiClick = (event, emojiObject) => {
+    setChosenEmoji(emojiObject);
+  };
+
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h1", {
+      style: {
+        textAlign: 'center'
+      },
+      children: "Demo emoji picker"
+    }, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 7
+    }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+      style: {
+        textAlign: 'center',
+        marginLeft: '10px'
+      },
+      children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(emoji_picker_react__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        onEmojiClick: onEmojiClick,
+        skinTone: emoji_picker_react__WEBPACK_IMPORTED_MODULE_2__["SKIN_TONE_MEDIUM_DARK"]
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 13
+      }, undefined), chosenEmoji && /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(EmojiData, {
+        chosenEmoji: chosenEmoji
+      }, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 30
+      }, undefined)]
+    }, void 0, true, {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 9
+    }, undefined)]
+  }, void 0, true);
+}; //{ chosenEmoji && <EmojiData chosenEmoji={chosenEmoji}/>}
+
+
+_s(App, "ZAewOTD/BZzGmjvC0AE/3OIS5vQ=");
+
+_c = App;
+
+const EmojiData = ({
+  chosenEmoji
+}) => /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+  style: {
+    textAlign: 'center',
+    marginRight: '820px'
+  },
+  children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 33,
+    columnNumber: 5
+  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 34,
+    columnNumber: 5
+  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("hr", {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 35,
+    columnNumber: 5
+  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("strong", {
+    children: "Names:"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 5
+  }, undefined), " ", chosenEmoji.names.join(', '), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 36,
+    columnNumber: 59
+  }, undefined), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("strong", {
+    children: "Symbol:"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 37,
+    columnNumber: 5
+  }, undefined), " ", chosenEmoji.emoji, /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("br", {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 37,
+    columnNumber: 49
+  }, undefined)]
+}, void 0, true, {
+  fileName: _jsxFileName,
+  lineNumber: 32,
+  columnNumber: 3
+}, undefined);
+
+_c2 = EmojiData;
+
+var _c, _c2;
+
+__webpack_require__.$Refresh$.register(_c, "App");
+__webpack_require__.$Refresh$.register(_c2, "EmojiData");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/components/weather_app_1_0.jsx":
+/*!********************************************!*\
+  !*** ./src/components/weather_app_1_0.jsx ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Weather; });
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _css_weather_app_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../css/weather_app.css */ "./src/css/weather_app.css");
+/* harmony import */ var _css_weather_app_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_css_weather_app_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _images_sunny_JPG__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/sunny.JPG */ "./src/images/sunny.JPG");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\components\\weather_app_1_0.jsx";
+
+
+
+class Weather extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(props) {
+    super(props);
+
+    this.Interface = () => {
+      return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+        children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+          className: "card",
+          children: [/*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+            className: "container",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+              id: "day",
+              children: "Mon"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 19,
+              columnNumber: 25
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 18,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("img", {
+            src: _images_sunny_JPG__WEBPACK_IMPORTED_MODULE_3__["default"],
+            alt: "sunny",
+            id: "icon"
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 21,
+            columnNumber: 21
+          }, this), /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+            className: "container",
+            children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("h4", {
+              children: "78\xB0 67\xB0"
+            }, void 0, false, {
+              fileName: _jsxFileName,
+              lineNumber: 23,
+              columnNumber: 25
+            }, this)
+          }, void 0, false, {
+            fileName: _jsxFileName,
+            lineNumber: 22,
+            columnNumber: 21
+          }, this)]
+        }, void 0, true, {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 17
+        }, this)
+      }, void 0, false);
+    };
+
+    this.state = {
+      val: 0
+    };
+  }
+
+  render() {
+    return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(this.Interface, {}, void 0, false, {
+        fileName: _jsxFileName,
+        lineNumber: 34,
+        columnNumber: 17
+      }, this)
+    }, void 0, false);
+  }
+
+}
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ "./src/css/bmi_calculator.css":
+/*!************************************!*\
+  !*** ./src/css/bmi_calculator.css ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./bmi_calculator.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/bmi_calculator.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./bmi_calculator.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/bmi_calculator.css",
+      function () {
+        content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./bmi_calculator.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/bmi_calculator.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/css/calculator.css":
+/*!********************************!*\
+  !*** ./src/css/calculator.css ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./calculator.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/calculator.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./calculator.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/calculator.css",
+      function () {
+        content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./calculator.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/calculator.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/css/weather_app.css":
+/*!*********************************!*\
+  !*** ./src/css/weather_app.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./weather_app.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/weather_app.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./weather_app.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/weather_app.css",
+      function () {
+        content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../../node_modules/postcss-loader/src??postcss!./weather_app.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/weather_app.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/images/bmi-graph.jpg":
+/*!**********************************!*\
+  !*** ./src/images/bmi-graph.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/bmi-graph.106de642.jpg");
+
+/***/ }),
+
+/***/ "./src/images/sunny.JPG":
+/*!******************************!*\
+  !*** ./src/images/sunny.JPG ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "static/media/sunny.dd9d4077.JPG");
+
+/***/ }),
+
+/***/ "./src/index.css":
+/*!***********************!*\
+  !*** ./src/index.css ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+if (true) {
+  if (!content.locals || module.hot.invalidate) {
+    var isEqualLocals = function isEqualLocals(a, b, isNamedExport) {
+  if (!a && b || a && !b) {
+    return false;
+  }
+
+  var p;
+
+  for (p in a) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (a[p] !== b[p]) {
+      return false;
+    }
+  }
+
+  for (p in b) {
+    if (isNamedExport && p === 'default') {
+      // eslint-disable-next-line no-continue
+      continue;
+    }
+
+    if (!a[p]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+    var oldLocals = content.locals;
+
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css",
+      function () {
+        content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!../node_modules/postcss-loader/src??postcss!./index.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/index.css");
+
+              content = content.__esModule ? content.default : content;
+
+              if (typeof content === 'string') {
+                content = [[module.i, content, '']];
+              }
+
+              if (!isEqualLocals(oldLocals, content.locals)) {
+                module.hot.invalidate();
+
+                return;
+              }
+
+              oldLocals = content.locals;
+
+              update(content);
+      }
+    )
+  }
+
+  module.hot.dispose(function() {
+    update();
+  });
+}
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(__react_refresh_utils__, __react_refresh_error_overlay__) {/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
+/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./index.css */ "./src/index.css");
+/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_index_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "../../../../node_modules/bootstrap/dist/css/bootstrap.css");
+/* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_counter__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/counter */ "./src/components/counter.jsx");
+/* harmony import */ var _components_calculator_1_0__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/calculator_1_0 */ "./src/components/calculator_1_0.jsx");
+/* harmony import */ var _components_calculator_1_1__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/calculator_1_1 */ "./src/components/calculator_1_1.jsx");
+/* harmony import */ var _components_calculator_1_2__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/calculator_1_2 */ "./src/components/calculator_1_2.jsx");
+/* harmony import */ var _components_emoji_picker__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/emoji_picker */ "./src/components/emoji_picker.jsx");
+/* harmony import */ var _components_bmi_calculator_1_0__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/bmi_calculator_1_0 */ "./src/components/bmi_calculator_1_0.jsx");
+/* harmony import */ var _components_Api_practice__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Api_practice */ "./src/components/Api_practice.jsx");
+/* harmony import */ var _components_weather_app_1_0__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/weather_app_1_0 */ "./src/components/weather_app_1_0.jsx");
+__webpack_require__.$Refresh$.runtime = __webpack_require__(/*! react-refresh/runtime */ "./node_modules/react-refresh/runtime.js");
+__webpack_require__.$Refresh$.setup(module.i);
+
+
+
+var _jsxFileName = "C:\\Users\\eolatunde\\Desktop\\Learning Languages\\React Code\\counter-app\\src\\index.js";
+
+
+
+ //Components Built so far
+
+
+
+
+
+
+
+
+
+
+function Test() {
+  return /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])("div", {
+    children: "Hey"
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 17,
+    columnNumber: 5
+  }, this);
+}
+
+_c = Test;
+react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+  children: /*#__PURE__*/Object(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxDEV"])(_components_weather_app_1_0__WEBPACK_IMPORTED_MODULE_12__["default"], {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 22,
+    columnNumber: 5
+  }, undefined)
+}, void 0, false), document.getElementById('root'));
+
+var _c;
+
+__webpack_require__.$Refresh$.register(_c, "Test");
+
+const currentExports = __react_refresh_utils__.getModuleExports(module.i);
+__react_refresh_utils__.registerExportsForReactRefresh(currentExports, module.i);
+
+if (true) {
+  const isHotUpdate = !!module.hot.data;
+  const prevExports = isHotUpdate ? module.hot.data.prevExports : null;
+
+  if (__react_refresh_utils__.isReactRefreshBoundary(currentExports)) {
+    module.hot.dispose(
+      /**
+       * A callback to performs a full refresh if React has unrecoverable errors,
+       * and also caches the to-be-disposed module.
+       * @param {*} data A hot module data object from Webpack HMR.
+       * @returns {void}
+       */
+      function hotDisposeCallback(data) {
+        // We have to mutate the data object to get data registered and cached
+        data.prevExports = currentExports;
+      }
+    );
+    module.hot.accept(
+      /**
+       * An error handler to allow self-recovering behaviours.
+       * @param {Error} error An error occurred during evaluation of a module.
+       * @returns {void}
+       */
+      function hotErrorHandler(error) {
+        if (
+          typeof __react_refresh_error_overlay__ !== 'undefined' &&
+          __react_refresh_error_overlay__
+        ) {
+          __react_refresh_error_overlay__.handleRuntimeError(error);
+        }
+
+        if (typeof __react_refresh_test__ !== 'undefined' && __react_refresh_test__) {
+          if (window.onHotAcceptError) {
+            window.onHotAcceptError(error.message);
+          }
+        }
+
+        __webpack_require__.c[module.i].hot.accept(hotErrorHandler);
+      }
+    );
+
+    if (isHotUpdate) {
+      if (
+        __react_refresh_utils__.isReactRefreshBoundary(prevExports) &&
+        __react_refresh_utils__.shouldInvalidateReactRefreshBoundary(prevExports, currentExports)
+      ) {
+        module.hot.invalidate();
+      } else {
+        __react_refresh_utils__.enqueueUpdate(
+          /**
+           * A function to dismiss the error overlay after performing React refresh.
+           * @returns {void}
+           */
+          function updateCallback() {
+            if (
+              typeof __react_refresh_error_overlay__ !== 'undefined' &&
+              __react_refresh_error_overlay__
+            ) {
+              __react_refresh_error_overlay__.clearRuntimeErrors();
+            }
+          }
+        );
+      }
+    }
+  } else {
+    if (isHotUpdate && __react_refresh_utils__.isReactRefreshBoundary(prevExports)) {
+      module.hot.invalidate();
+    }
+  }
+}
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js */ "./node_modules/@pmmmwh/react-refresh-webpack-plugin/lib/runtime/RefreshUtils.js"), __webpack_require__(/*! ./node_modules/react-dev-utils/refreshOverlayInterop.js */ "./node_modules/react-dev-utils/refreshOverlayInterop.js")))
+
+/***/ }),
+
+/***/ 1:
+/*!**********************************************************************************************************************************************************************************************!*\
+  !*** multi (webpack)/hot/dev-server.js ./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js ./node_modules/react-dev-utils/webpackHotDevClient.js ./src/index.js ***!
+  \**********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! C:\Users\eolatunde\Desktop\Learning Languages\React Code\counter-app\node_modules\webpack\hot\dev-server.js */"./node_modules/webpack/hot/dev-server.js");
+__webpack_require__(/*! C:\Users\eolatunde\Desktop\Learning Languages\React Code\counter-app\node_modules\@pmmmwh\react-refresh-webpack-plugin\client\ReactRefreshEntry.js */"./node_modules/@pmmmwh/react-refresh-webpack-plugin/client/ReactRefreshEntry.js");
+__webpack_require__(/*! C:\Users\eolatunde\Desktop\Learning Languages\React Code\counter-app\node_modules\react-dev-utils\webpackHotDevClient.js */"./node_modules/react-dev-utils/webpackHotDevClient.js");
+module.exports = __webpack_require__(/*! C:\Users\eolatunde\Desktop\Learning Languages\React Code\counter-app\src\index.js */"./src/index.js");
+
+
+/***/ })
+
+},[[1,"runtime-main",0]]]);
+//# sourceMappingURL=main.chunk.js.map

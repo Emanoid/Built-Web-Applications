@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/css/weather_app.css":
+/*!************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/css/weather_app.css ***!
+  \************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, "#getRange {\r\n  width: 200px !important;\r\n  height: 50px !important;\r\n  text-align: center;\r\n  background-color: rgba(101, 34, 226, 0.623);\r\n  color: black;\r\n  padding: 15px 15px 15px 15px;\r\n  display: inline;\r\n  font-size: 20px;\r\n  font-weight: 700;\r\n  border-radius: 10px;\r\n  margin: 0px 0px 0px 100px;\r\n}\r\n#bmi {\r\n  font-weight: 600;\r\n  font-size: 20px;\r\n}\r\n\r\n#height-inches {\r\n  margin: 0px 0px 0px 15px;\r\n}\r\n#top-section {\r\n  margin: 40px 30px 40px 230px;\r\n}\r\n\r\n.card {\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  transition: 0.3s;\r\n  width: 150px !important;\r\n  height: 140px;\r\n  text-align: center;\r\n  margin: 40px 0px 20px 30px;\r\n}\r\n\r\n.card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\r\n}\r\n\r\n.container {\r\n  padding: 2px 16px;\r\n}\r\n#icon {\r\n  width: 100%;\r\n  height: 50%;\r\n}\r\n#day {\r\n  font-weight: 530;\r\n}\r\n\r\n/* \r\nTop \r\nRight\r\nBottom\r\nLeft\r\n*/\r\n", "",{"version":3,"sources":["webpack://src/css/weather_app.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,uBAAuB;EACvB,kBAAkB;EAClB,2CAA2C;EAC3C,YAAY;EACZ,4BAA4B;EAC5B,eAAe;EACf,eAAe;EACf,gBAAgB;EAChB,mBAAmB;EACnB,yBAAyB;AAC3B;AACA;EACE,gBAAgB;EAChB,eAAe;AACjB;;AAEA;EACE,wBAAwB;AAC1B;AACA;EACE,4BAA4B;AAC9B;;AAEA;EACE,0CAA0C;EAC1C,gBAAgB;EAChB,uBAAuB;EACvB,aAAa;EACb,kBAAkB;EAClB,0BAA0B;AAC5B;;AAEA;EACE,2CAA2C;AAC7C;;AAEA;EACE,iBAAiB;AACnB;AACA;EACE,WAAW;EACX,WAAW;AACb;AACA;EACE,gBAAgB;AAClB;;AAEA;;;;;CAKC","sourcesContent":["#getRange {\r\n  width: 200px !important;\r\n  height: 50px !important;\r\n  text-align: center;\r\n  background-color: rgba(101, 34, 226, 0.623);\r\n  color: black;\r\n  padding: 15px 15px 15px 15px;\r\n  display: inline;\r\n  font-size: 20px;\r\n  font-weight: 700;\r\n  border-radius: 10px;\r\n  margin: 0px 0px 0px 100px;\r\n}\r\n#bmi {\r\n  font-weight: 600;\r\n  font-size: 20px;\r\n}\r\n\r\n#height-inches {\r\n  margin: 0px 0px 0px 15px;\r\n}\r\n#top-section {\r\n  margin: 40px 30px 40px 230px;\r\n}\r\n\r\n.card {\r\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\r\n  transition: 0.3s;\r\n  width: 150px !important;\r\n  height: 140px;\r\n  text-align: center;\r\n  margin: 40px 0px 20px 30px;\r\n}\r\n\r\n.card:hover {\r\n  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);\r\n}\r\n\r\n.container {\r\n  padding: 2px 16px;\r\n}\r\n#icon {\r\n  width: 100%;\r\n  height: 50%;\r\n}\r\n#day {\r\n  font-weight: 530;\r\n}\r\n\r\n/* \r\nTop \r\nRight\r\nBottom\r\nLeft\r\n*/\r\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.18176bfa4d56b9360a67.hot-update.js.map

@@ -1,0 +1,137 @@
+#header {
+  text-align: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 200px !important;
+  height: 330px !important;
+  text-align: center;
+  margin: 40px 0px 20px 30px;
+  float: left;
+  background-color: rgb(243, 246, 247);
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+#icon {
+  width: 100%;
+  height: 55%;
+}
+#day {
+  font-size: 20px;
+  font-weight: 530;
+  color: rgb(175, 175, 175);
+  float: left;
+}
+#htext {
+  font-size: 20px;
+  font-weight: 530;
+  color: grey;
+  float: left;
+  margin: 0px 0px 0px 50px;
+}
+#text {
+  font-size: 20px;
+  font-weight: 530;
+  color: rgb(175, 175, 175);
+  float: left;
+}
+#regtext {
+  font-size: 20px;
+  font-weight: 530;
+  color: grey;
+  float: center;
+}
+#delete {
+  margin: 0px 0px 0px 180px;
+  padding: 0px 0px 0px 0px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: red;
+  border-radius: 12px;
+}
+#search {
+  font-size: 20px;
+  font-weight: 530;
+  color: grey;
+  float: center;
+  margin: 0px 0px 0px 30%;
+  height: 50px;
+  width: 500px;
+}
+#search-button {
+  font-size: 20px;
+  font-weight: 530;
+  color: black;
+  background-color: green;
+  border-radius: 10px;
+  margin: 0px 0px 0px 20px;
+  height: 50px;
+  width: 150px;
+  float: center;
+}
+#errortext {
+  font-size: 20px;
+  font-weight: 530;
+  color: red;
+  margin: 0px 0px 0px 30%;
+}
+#details {
+  font-size: 20px;
+  font-weight: 530;
+  color: black;
+  margin: 0px 0px 0px 0px;
+}
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 3px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  padding: 3px;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+/* 
+Top 
+Right
+Bottom
+Left
+*/

@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#result {
+  width: 400px !important;
+  height: 90px !important;
+  text-align: right;
+  background-color: black;
+  margin: 10px 10px 0px 10px;
+  color: white;
+  padding: 40px 10px 50px 0px;
+  display: inline;
+  font-size: 35px;
+}
+
+button.key {
+  width: 100px !important;
+  height: 90px !important;
+  text-align: center;
+  background-color: rgba(202, 199, 199, 0.76);
+  color: black;
+  padding: 25px 25px 25px 25px;
+  display: inline;
+  font-size: 25px;
+  border: 1px solid rgb(202, 202, 202);
+}
+
+#key1 {
+  margin: 0px 0px 0px 10px;
+}
+#key2 {
+  margin: 0px 0px 0px 0px;
+}
+#key3 {
+  margin: 0px 0px 0px 0px;
+}
+#key4 {
+  margin: 0px 0px 0px 0px;
+  background-color: orange;
+  color: white;
+}
+#key5 {
+  margin: 0px 0px 0px 10px;
+}
+#key6 {
+  margin: 0px 0px 0px 0px;
+}
+#key7 {
+  margin: 0px 0px 0px 0px;
+}
+#key8 {
+  margin: 0px 0px 0px 0px;
+  background-color: orange;
+  color: white;
+}
+#key9 {
+  margin: 0px 0px 0px 10px;
+}
+#key10 {
+  margin: 0px 0px 0px 0px;
+}
+#key11 {
+  margin: 0px 0px 0px 0px;
+}
+#key12 {
+  margin: 0px 0px 0px 0px;
+  background-color: orange;
+  color: white;
+}
+#key13 {
+  margin: 0px 0px 0px 10px;
+}
+#key14 {
+  margin: 0px 0px 0px 0px;
+}
+#key15 {
+  margin: 0px 0px 0px 0px;
+}
+#key16 {
+  margin: 0px 0px 0px 0px;
+  background-color: orange;
+  color: white;
+}
+#key17 {
+  width: 400px !important;
+  height: 90px !important;
+  margin: 0px 0px 0px 10px;
+  background-color: rgb(155, 162, 187);
+}
+#key17_1_1 {
+  width: 300px !important;
+  height: 90px !important;
+  margin: 0px 0px 0px 10px;
+  background-color: rgb(155, 162, 187);
+}
+#key18 {
+  width: 100px !important;
+  height: 90px !important;
+  margin: 0px 0px 0px 0px;
+  background-color: orange;
+  color: white;
+}

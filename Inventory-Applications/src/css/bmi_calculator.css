@@ -1,0 +1,38 @@
+#getRange {
+  width: 200px !important;
+  height: 50px !important;
+  text-align: center;
+  background-color: rgba(101, 34, 226, 0.623);
+  color: black;
+  padding: 15px 15px 15px 15px;
+  display: inline;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  margin: 0px 0px 0px 100px;
+}
+#bmi {
+  font-weight: 600;
+  font-size: 20px;
+}
+#card {
+  width: 900px !important;
+  background-color: rgb(245, 241, 241);
+  color: black;
+  margin: 30px 1px 0px 30px;
+  padding: 40px 30px 40px 30px;
+  border-radius: 30px;
+}
+#height-inches {
+  margin: 0px 0px 0px 15px;
+}
+#top-section {
+  margin: 40px 30px 40px 230px;
+}
+
+/* 
+Top 
+Right
+Bottom
+Left
+*/

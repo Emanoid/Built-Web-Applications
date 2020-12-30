@@ -1,0 +1,119 @@
+#navi {
+  width: 100% !important;
+  height: 80px !important;
+  text-align: left;
+  padding: 10px 0px 10px 10px;
+  float: left;
+  background-color: rgb(230, 99, 23);
+  font-size: 25px;
+  position: fixed;
+}
+
+#navlogo {
+  margin: 0px 0px 0px 10px;
+  float: left;
+}
+#navitems {
+  margin: 10px 0px 0px 10px;
+  float: left;
+  font-size: 15px;
+}
+#search-tech {
+  width: 40% !important;
+  height: 60px;
+  float: left;
+  margin: 0px 0px 0px 10px;
+  border-radius: 10px;
+  background-color: rgb(236, 229, 229);
+}
+#story {
+  margin: 12px 0px 0px 10px;
+  /*background-color: rgb(229, 235, 235);*/
+  background-color: rgba(229, 235, 235, 0.829);
+  height: 70px !important;
+  width: 90% !important;
+  border-radius: 10px;
+  padding: 0px 0px 10px 10px;
+  color: rgb(73, 75, 75);
+  float: left;
+}
+#story_v2 {
+  margin: 12px 0px 0px 10px;
+  /*background-color: rgb(229, 235, 235);*/
+  background-color: rgba(229, 235, 235, 0.829);
+  height: 70px !important;
+  width: 55% !important;
+  border-radius: 10px;
+  padding: 0px 0px 10px 10px;
+  color: rgb(73, 75, 75);
+  float: left;
+}
+#story_v2_selected {
+  margin: 12px 0px 0px 10px;
+  /*background-color: rgb(229, 235, 235);*/
+  background-color: rgb(229, 235, 235);
+  height: 70px !important;
+  width: 55% !important;
+  border-radius: 10px;
+  padding: 0px 0px 10px 10px;
+  color: rgb(73, 75, 75);
+  float: left;
+}
+#story-text {
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+}
+#delete {
+  margin: 0px 0px 0px 98%;
+  padding: 0px 0px 0px 0px;
+  width: 25px;
+  height: 25px;
+  color: white;
+  background-color: red;
+  float: left;
+}
+#filter-text {
+  font-size: 20px;
+  font-weight: 400;
+}
+#progress-bar {
+  width: 200px;
+  margin: 0px 0px 0px 85%;
+  position: static;
+  background-color: rgb(230, 99, 23);
+}
+#myId {
+  margin: 35px 0px 0px 57%;
+  background-color: rgb(241, 235, 235);
+  width: 40%;
+  color: black;
+}
+#myId-text {
+  margin: 0px 0px 0px 57%;
+  padding: 5px 0px 0px 0px;
+  background-color: rgb(241, 235, 235);
+  width: 40%;
+  height: 30px;
+  color: black;
+  position: fixed;
+  text-align: center;
+}
+#view {
+  background-color: #4caf50;
+  color: white;
+  padding: 3px;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0px 0px 0px 10px;
+  width: 40px;
+  float: right;
+}
+/* 
+  Top 
+  Right
+  Bottom
+  Left
+  */
