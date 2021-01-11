@@ -81,7 +81,7 @@ export default class BMI extends React.Component{
                 <div id='card'>
                     <div id='top-section'>
                         <h1>BMI CALCULATOR</h1>
-                        <Link to='/'>Home</Link>
+                        <Link to='/Home'>Home</Link>
                         <h5>Unit of measurement:</h5>
                         <form>
                             <input type='radio' id='metric' name='scale' onClick={this.onSelectScale} defaultChecked/>

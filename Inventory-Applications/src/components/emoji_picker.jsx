@@ -21,7 +21,7 @@ export default class Emoji extends React.Component {
     return (
       <>
         <h1 style={{textAlign: 'center'}}>Demo emoji picker</h1>
-        <Link to='/'>Home</Link>
+        <Link to='/Home'>Home</Link>
         <div style={{textAlign: 'center',marginLeft:'10px'}}>
             <Picker  onEmojiClick={onEmojiClick} skinTone={SKIN_TONE_MEDIUM_DARK}/>
             { chosenEmoji && <EmojiData chosenEmoji={chosenEmoji}/>}

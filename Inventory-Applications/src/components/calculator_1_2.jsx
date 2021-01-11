@@ -33,7 +33,7 @@ export default class Calculator_1_0 extends React.Component {
         return (
             <>
                 <h1>Calculator Application</h1>
-                <Link to='/'>Home</Link><br/><br/>
+                <Link to='/Home'>Home</Link><br/><br/>
                 <button id='result'>{this.state.result}</button>
                 <br/>
                 <button className='key' id='key1' onClick={(e) => this.onNumberClick(e,7)}>7</button>

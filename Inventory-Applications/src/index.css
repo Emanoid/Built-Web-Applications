@@ -91,8 +91,15 @@ button {
   padding: 5px 15px;
   text-align: center;
 }
-#header {
-  text-align: center;
+#headerauth {
+  margin: 0px 0px 0px 12%;
+}
+#headernotauth {
+  margin: 0px 0px 0px 35%;
+}
+
+#headername {
+  margin: 10px 0px 0px 20px;
 }
 #chicklet {
   width: 300px !important;
@@ -115,6 +122,62 @@ button {
   background-color: rgb(14, 124, 23);
   padding: 13px 10px 20px 10px;
   margin: 30px 0px 0px 20px;
+  color: white;
+  float: left;
+}
+
+.logout_nav {
+  font-weight: 500;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  float: left;
+}
+
+#login {
+  width: 100px !important;
+  height: 30px !important;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 9px;
+  background-color: rgb(65, 62, 228);
+  padding: 5px 10px 13px 10px;
+  margin: 10px 0px 0px 45%;
+  color: white;
+  float: left;
+}
+#login:hover {
+  width: 100px !important;
+  height: 30px !important;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 9px;
+  background-color: rgb(31, 28, 224);
+  padding: 5px 10px 13px 10px;
+  margin: 10px 0px 0px 45%;
+  color: white;
+  float: left;
+}
+#logout {
+  width: 100px !important;
+  height: 30px !important;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 9px;
+  background-color: rgb(65, 62, 228);
+  padding: 5px 10px 13px 10px;
+  margin: 10px 0px 0px 300px;
+  color: white;
+  float: left;
+}
+#logout:hover {
+  width: 100px !important;
+  height: 30px !important;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 9px;
+  background-color: rgb(31, 28, 224);
+  padding: 5px 10px 13px 10px;
+  margin: 10px 0px 0px 300px;
   color: white;
   float: left;
 }

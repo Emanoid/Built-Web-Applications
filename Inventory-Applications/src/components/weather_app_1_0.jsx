@@ -76,7 +76,7 @@ export default class Weather extends React.Component {
         return (
             <>
                 <h1 id='header'>Weather App</h1>
-                <Link to='/'>Home</Link>
+                <Link to='/Home'>Home</Link>
                 <div id='details'>Date/Time: {String(date).substring(3,(String(date).length))}</div><br/>
                 <div id='details'>
                     Temperature Scale: &nbsp;

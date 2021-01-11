@@ -80,7 +80,7 @@ export default class News extends React.Component{
             <>
                 <nav id='navi'>
                     <img src={Logo} alt='logo' width={60} height={60} id='navlogo' />
-                    <Link to='/' id='navitems'><h4>Home</h4></Link>
+                    <Link to='/Home' id='navitems'><h4>Home</h4></Link>
                     <img src={LogoText} alt='logo-text' width={250} height={60} id='navlogo' />
                     <input id='search-tech' value={searchValue} onChange={(e) => this.handleValueChange(e)} onKeyDown={(e)=>this.onEnterSumbit(e)} type='text' placeholder='Search by title, url, author or points....' />
                     <div id='navitems'>Displaying {displayData.length} out of {data.length} result(s)</div>
