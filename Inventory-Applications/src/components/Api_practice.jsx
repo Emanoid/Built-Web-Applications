@@ -29,7 +29,7 @@ export default class Api extends React.Component {
         else{
             return (
                 <div>
-                    <Link to='/'>Home</Link>
+                    <Link to='/Home'>Home</Link>
                     <ul>
                         {items.message.map((dog,i) => {
                             return (<>

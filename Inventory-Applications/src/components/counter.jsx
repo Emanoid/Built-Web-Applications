@@ -58,7 +58,7 @@ export default class Counter extends React.Component {
             <>
                 <h1>Shopping Cart Counter</h1>
                 <nav id='nav' >
-                <Link to='/'>&nbsp; Home &nbsp;</Link>
+                <Link to='/Home'>&nbsp; Home &nbsp;</Link>
                     Navbar &nbsp;
                     <button id='navnum'>{this.state.activeCounters}</button>
 

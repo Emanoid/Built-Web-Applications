@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/calculator.css'
+import {Link} from 'react-router-dom'
 //Caculator Version 1.0
 export default class Calculator_1_0 extends React.Component {
     constructor(props){
@@ -49,6 +50,7 @@ export default class Calculator_1_0 extends React.Component {
     render() { 
         return ( 
             <>
+                <Link to='/Home'>Home</Link>
                 <this.Interface />
             </>
          );
