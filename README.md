@@ -6,7 +6,7 @@ Pre-requisites( Your device should have the following installed: -npm -node.js -
 After Clonning/Forking/Downloading this Repository
 -Download Dependencies by Running the commands:
 npm install (i.e to install most core dependencies)
-npm install --save bootstrap@^4.0.0-alpha.6 react-bootstrap@^0.32.1 emoji-picker-react react-router-dom
+npm install --save bootstrap@^4.0.0-alpha.6 react-bootstrap@^0.32.1 emoji-picker-react react-router-dom @auth0/auth0-react
 
 -Start the Application by running
 npm start (to start local server to host website)
