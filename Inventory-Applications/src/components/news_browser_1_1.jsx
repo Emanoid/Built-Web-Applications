@@ -75,7 +75,7 @@ export default class News extends React.Component{
             <>
                 <nav id='navi'>
                         <img src={Logo} alt='logo' width={60} height={60} id='navlogo' />
-                        <Link to='/' id='navitems'>Home</Link>
+                        <Link to='/Home' id='navitems'>Home</Link>
                         <img src={LogoText} alt='logo' width={250} height={60} id='navlogo' />
                         <input id='search-tech' value={this.state.searchValue} onChange={(e) => this.handleValueChange(e)} onKeyDown={(e)=>this.onEnterSumbit(e)} type='text' placeholder='Search by title, url, author or points....' />
                         <div id='navitems'>Displaying {this.state.displayData.length} out of {this.state.data.length} result(s)</div>

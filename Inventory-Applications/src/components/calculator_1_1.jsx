@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/calculator.css'
+import {Link} from 'react-router-dom'
 //Caculator Version 1.1
     //Add Delete Feature Completed
     //Add Command Chaining Completed
@@ -57,6 +58,7 @@ export default class Calculator_1_0 extends React.Component {
     render() { 
         return ( 
             <>
+                <Link to='/Home'>Home</Link>
                 <this.Interface />
             </>
          );
